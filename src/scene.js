@@ -22,7 +22,7 @@ export default class Level extends Phaser.Scene {
    * @override
    */
   create() {
-    this.stars = 2;
+    this.stars = 10;
     this.bases = this.add.group();
     this.player = new Player(this, 200, 300);
 
