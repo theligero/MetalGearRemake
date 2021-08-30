@@ -18,10 +18,10 @@ export default class Boot extends Phaser.Scene {
    * @override
    */
   preload() {
-    this.load.image('platform', '/assets/sprites/platform.png');
-    this.load.image('base', '/assets/sprites/base.png');
-    this.load.image('star', '/assets/sprites/star.png');
-    this.load.image('player', '/assets/sprites/player.png');
+    this.load.image('platform', './assets/sprites/platform.png');
+    this.load.image('base', './assets/sprites/base.png');
+    this.load.image('star', './assets/sprites/star.png');
+    this.load.image('player', './assets/sprites/player.png');
   }
 
   /**
