@@ -1,8 +1,25 @@
+/**
+ * Escena para la precarga de los assets que se usarán en el juego.
+ * Esta escena se puede mejorar añadiendo una imagen del juego y una 
+ * barra de progreso de carga de los assets
+ * @see {@link https://gamedevacademy.org/creating-a-preloading-screen-in-phaser-3/} como ejemplo
+ * sobre cómo hacer una barra de progreso.
+ */
 export default class Boot extends Phaser.Scene {
+  /**
+   * Constructor de la escena
+   */
   constructor() {
     super({ key: 'boot' });
   }
+
+  /**
+   * Carga de los assets del juego
+   * @override
+   */
   preload() {
+    // De esta forma no necesitamos añadir este prefijo al nombre de los 
+    // ficheros de assets
     this.load.setBaseURL('../assets/sprites');
     this.load.image('platform', 'platform.png');
     this.load.image('base', 'base.png');
@@ -10,7 +27,11 @@ export default class Boot extends Phaser.Scene {
     this.load.image('player', 'player.png');
   }
 
+  /**
+   * Creación de la escena. En este caso, solo cambiamos a la escena que representa el
+   * nivel del juego
+   */
   create() {
-    this.scene.start('scene');
+    this.scene.start('level');
   }
 }
