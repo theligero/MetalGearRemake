@@ -1,6 +1,7 @@
-import Boot from './boot.js'
-import Level from './scene.js'
-import End from './end.js'
+import Boot from './boot.js';
+import End from './end.js';
+import Platform from './platform.js';
+import Level from './scene.js';
 
 /**
  * Inicio del juego en Phaser. Creamos el archivo de configuración del juego y creamos

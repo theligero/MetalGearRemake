@@ -15,7 +15,6 @@ export default class Boot extends Phaser.Scene {
 
   /**
    * Carga de los assets del juego
-   * @override
    */
   preload() {
     // Con setPath podemos establecer el prefijo que se añadirá a todos los load que aparecen a continuación

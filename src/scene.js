@@ -1,4 +1,4 @@
-import Player from './player.js'
+import Player from './player.js';
 import Platform from './platform.js';
 
 /**
@@ -19,7 +19,6 @@ export default class Level extends Phaser.Scene {
 
   /**
    * Creación de los elementos de la escena principal de juego
-   * @override
    */
   create() {
     this.stars = 10;
@@ -57,6 +56,6 @@ export default class Level extends Phaser.Scene {
         let s = this.bases.children.entries;
         this.spawn(s.filter(o => o !== base));
 
-      };
+      }
   }
 }
