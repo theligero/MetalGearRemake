@@ -13,7 +13,6 @@ export default class End extends Phaser.Scene {
 
   /**
    * Creación de la escena. Tan solo contiene el texto que indica que el juego se ha acabado
-   * @override
    */
   create() {
     this.add.text(500, 250, 'Se acabó!\nPulsa cualquier tecla para volver a jugar')
