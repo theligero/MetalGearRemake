@@ -36,7 +36,7 @@ Vista general
 
 
 ##### 1.1. Relato breve y parcial de una partida típica
-El jugador comienza en una zona vacía sin armas, y deberá abrirse paso entre enemigos que si le ven no dudarán en disparar. El objetivo "narrativo" sería infiltrarse en la base enemiga sin que el jugador sea detectado, pero se contempla la posibilidad de que el enemigo vea al jugador y la base se ponga en modo "alerta" para acabar con éste a toda costa. A lo largo del mapa habrá diferentes objetos que facilitarán la infiltración, como es el caso de los objetos, o las armas, que sirven para defenderse / atacar a los distintos enemigos que vayan apareciendo por el mapa.
+El jugador comienza en una zona vacía sin armas (cerca de una zona de agua que ha sorteado para "colarse en la base"), y deberá abrirse paso entre enemigos que si le ven no dudarán en disparar. El objetivo "narrativo" sería infiltrarse en la base enemiga sin que el jugador sea detectado, pero se contempla la posibilidad de que el enemigo vea al jugador y la base se ponga en modo "alerta" para acabar con éste a toda costa. A lo largo del mapa habrá diferentes objetos que facilitarán la infiltración, como es el caso de los objetos, o las armas, que sirven para defenderse / atacar a los distintos enemigos que vayan apareciendo por el mapa. Además, para acceder a ciertas zonas del mapa será necesario encontrar ciertas tarjetas de identificación que habilitarán el paso a otras zonas.
 
 #### 2. Jugabilidad
 Párrafos e ilustraciones donde se describe toda la jugabilidad del juego, toda la mecánica, dinámica y estética, aunque sin entrar a hablar de todos los elementos posibles que aparecen en el juego sino sólo sus “familias” o tipologías, clasificadas según su comportamiento.
@@ -56,10 +56,9 @@ La cámara es top-down 2D que mostrará únicamente la sección del mapa en la q
 Para ganar se ha de llegar sano y salvo al punto B (que sería una continuación en la infiltración de la base enemiga), y perder implica todo lo contrario. Realmente no hay una forma única de pasarse el juego, todas las formas que encuentre el jugador son válidas (infiltrarse con sigilo o acabar con todos los enemigos) si ello implica que éste llegue a su destino con vida.
 
 ##### 2.3. Estética
-#### 3. Menús y modos de juego 
-Párrafos e ilustraciones donde se describe todos aquellos menús “out-game” con las variantes posibles que presente el título, según distintos modos de juego -como el multijugador-. A menudo se utiliza un diagrama de estados para explicar esto.
-Si hay opciones para ejecutar directamente los niveles del juego, se incluirá aquí una lista completa.
-Mencionar el tipo de elementos que se van a necesitar (imágenes, sonidos, música…)
+#### 3. Menús y modos de juego
+Habrá una pantalla inicial de fondo negro donde salga el logo de 'Metal Gear' de 1987 y un texto abajo donde ponga "pulse cualquier tecla para continuar", y sonará la música original de fondo. Por otro lado, habrá una pantalla de "derrota" donde pondrá "partida terminada", y le dará la opción al jugador de continuar o de volver al menú de inicio (y sonará el sonido de derrota correspondiente).
+
 ##### 3.1. Configuración
 Se podrá subir y bajar el volumen desde un menú de pausa que se desplegará encima de la partida.
 
@@ -74,8 +73,10 @@ Si hay cinemáticas o grandes fragmentos de texto, puede incluirse una lista com
 ##### 4.2. Niveles
 Un único nivel. El objetivo será llegar desde un punto A a un punto B con vida. Es posible utilizar el sigilo o, por el contrario, armarse contra los enemigos y atacarlos.
 ##### 4.3. Personajes y enemigos
-Párrafos e ilustraciones donde se describe en detalle todos los personajes del juego, tanto avatares del jugador, como enemigos u otros personajes no-jugables, hasta secundarios. Con todas sus características convenientemente recogidas en tablas uniformes.
-Puede ayudar incluir retratos y arte conceptual de los personajes 
+Los enemigos todos serán hombres armados que actuarán de la misma forma: dispararán hacia el jugador hasta que o bien éste salga de esa sala o bien muera. Lo que ya varía entre unos y otros es el color de éstos. Los colores indican la dificultad de éstos, y a medida que se vaya adentrando el jugador en la base, los enemigos tendrán cada vez más vida. Los de color gris son los básicos y se encuentran en la primera zona de juego. Luego están los de color marrón grisaceo, seguidos de los rojos, los verdes y los azules.
+
+Los enemigos tienen un comportamiento muy básico común: se moverán arriba y abajo o a izquierda y a derecha dependiendo de la zona en la que estén. Además, éstos no tienen visión periférica, y únicamente verán al jugador si está justo en frente de ellos. Si se da esa situación, dará la voz de alarma a todos sus compañeros de la zona e irán a por el jugador. Éste tendrá que salir de la zona para "perderlos de vista".
+
 ##### 4.4. Objetos
 Como he mencionado anteriormente, los objetos pueden dividirse en dos subsecciones: los objetos sueltos y el armamento.
 	- Objetos sueltos:
