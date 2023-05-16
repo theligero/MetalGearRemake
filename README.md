@@ -38,6 +38,8 @@ Vista general
 ##### 1.1. Relato breve y parcial de una partida típica
 El jugador comienza en una zona vacía sin armas (cerca de una zona de agua que ha sorteado para "colarse en la base"), y deberá abrirse paso entre enemigos que si le ven no dudarán en disparar. El objetivo "narrativo" sería infiltrarse en la base enemiga sin que el jugador sea detectado, pero se contempla la posibilidad de que el enemigo vea al jugador y la base se ponga en modo "alerta" para acabar con éste a toda costa. A lo largo del mapa habrá diferentes objetos que facilitarán la infiltración, como es el caso de los objetos, o las armas, que sirven para defenderse / atacar a los distintos enemigos que vayan apareciendo por el mapa. Además, para acceder a ciertas zonas del mapa será necesario encontrar ciertas tarjetas de identificación que habilitarán el paso a otras zonas.
 
+![image](https://github.com/theligero/MetalGearRemake/assets/82498461/5558dc77-1d32-4247-926f-5a3165879218)
+
 #### 2. Jugabilidad
 Párrafos e ilustraciones donde se describe toda la jugabilidad del juego, toda la mecánica, dinámica y estética, aunque sin entrar a hablar de todos los elementos posibles que aparecen en el juego sino sólo sus “familias” o tipologías, clasificadas según su comportamiento.
 ##### 2.1. Mecánica
