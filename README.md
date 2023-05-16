@@ -11,14 +11,15 @@
 
 
 ### Descripción
-Metal Gear Remake es la reelaboración del proyecto hecho en 1987 y creado por Hideo Kojima y distribuido por Konami. Ya que se trata de un proyecto para una asignatura de la universidad, esta versión solo abarcará una pequeña sección con recursos y enemigos limitados debido a la falta de tiempo y a ciertos elementos de la versión original a los que no se ha podido acceder de ninguna manera. Aún así, se tratará de respetar de la manera más fidedigna al juego original que se programe. 
+Metal Gear Remake es la reelaboración del proyecto hecho en 1987 y creado por Hideo Kojima y distribuido por Konami. Ya que se trata de un proyecto para una asignatura de la universidad, esta versión solo abarcará una pequeña sección con recursos y enemigos limitados debido a la falta de tiempo y a ciertos elementos de la versión original a los que no se ha podido acceder de ninguna manera. Aún así, se tratará de respetar de la manera más fidedigna al juego original que se programe.
+
+![image](https://github.com/theligero/MetalGearRemake/assets/82498461/43791170-23b2-4df7-a989-0d27f24bbb23)
 
 La franquicia 'Metal Gear', incluídos los recursos (música, sprites, ...), de este repositorio, son propiedad de Konami Digital Entertainment B.V.
 
 ### Logotipo y portada del juego
 
-
-
+![image](https://github.com/theligero/MetalGearRemake/assets/82498461/5bf7e56c-06b3-447e-b66f-4cd7a7f4e1d6)
 
 ### Versiones del documento
 Histórico de versiones y control de cambios
@@ -59,7 +60,11 @@ Para ganar se ha de llegar sano y salvo al punto B (que sería una continuación
 
 ##### 2.3. Estética
 #### 3. Menús y modos de juego
-Habrá una pantalla inicial de fondo negro donde salga el logo de 'Metal Gear' de 1987 y un texto abajo donde ponga "pulse cualquier tecla para continuar", y sonará la música original de fondo. Por otro lado, habrá una pantalla de "derrota" donde pondrá "partida terminada", y le dará la opción al jugador de continuar o de volver al menú de inicio (y sonará el sonido de derrota correspondiente).
+Habrá una pantalla inicial de fondo negro donde salga el logo de 'Metal Gear' de 1987 y un texto abajo donde ponga "pulse cualquier tecla para continuar", y sonará la música original de fondo. 
+
+![image](https://github.com/theligero/MetalGearRemake/assets/82498461/2e54da21-fd56-4a52-ab44-efb15e50d7ce)
+
+Por otro lado, habrá una pantalla de "derrota" donde pondrá "partida terminada", y le dará la opción al jugador de continuar o de volver al menú de inicio (y sonará el sonido de derrota correspondiente).
 
 ##### 3.1. Configuración
 Se podrá subir y bajar el volumen desde un menú de pausa que se desplegará encima de la partida.
@@ -76,6 +81,8 @@ Si hay cinemáticas o grandes fragmentos de texto, puede incluirse una lista com
 Un único nivel. El objetivo será llegar desde un punto A a un punto B con vida. Es posible utilizar el sigilo o, por el contrario, armarse contra los enemigos y atacarlos.
 ##### 4.3. Personajes y enemigos
 Los enemigos todos serán hombres armados que actuarán de la misma forma: dispararán hacia el jugador hasta que o bien éste salga de esa sala o bien muera. Lo que ya varía entre unos y otros es el color de éstos. Los colores indican la dificultad de éstos, y a medida que se vaya adentrando el jugador en la base, los enemigos tendrán cada vez más vida. Los de color gris son los básicos y se encuentran en la primera zona de juego. Luego están los de color marrón grisaceo, seguidos de los rojos, los verdes y los azules.
+
+![image](https://github.com/theligero/MetalGearRemake/assets/82498461/460f2e59-3500-4c91-8f0f-81a8388c4f02)
 
 Los enemigos tienen un comportamiento muy básico común: se moverán arriba y abajo o a izquierda y a derecha dependiendo de la zona en la que estén. Además, éstos no tienen visión periférica, y únicamente verán al jugador si está justo en frente de ellos. Si se da esa situación, dará la voz de alarma a todos sus compañeros de la zona e irán a por el jugador. Éste tendrá que salir de la zona para "perderlos de vista".
 
